@@ -1,7 +1,9 @@
-package cz.prague.steuejan.playingmovies
+package cz.prague.steuejan.playingmovies.view.activities
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import cz.prague.steuejan.playingmovies.BuildConfig
+import cz.prague.steuejan.playingmovies.R
 
 class MainActivity : AppCompatActivity() {
 
