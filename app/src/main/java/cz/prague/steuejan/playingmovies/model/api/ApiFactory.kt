@@ -33,7 +33,7 @@ object ApiFactory {
             .build()
     }
 
-    fun getRetrofit(
+    private fun getRetrofit(
         baseUrl: String,
         converterFactory: Converter.Factory = GsonConverterFactory.create(),
         adapterFactory: CallAdapter.Factory = CoroutineCallAdapterFactory()

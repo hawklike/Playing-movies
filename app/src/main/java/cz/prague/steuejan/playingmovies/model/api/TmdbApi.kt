@@ -7,5 +7,5 @@ import retrofit2.http.GET
 
 interface TmdbApi {
     @GET("movie/now_playing")
-    fun getPlayingMovies(): Deferred<Response<List<Movie>>>
+    fun getPlayingMoviesAsync(): Deferred<Response<List<Movie>>>
 }
